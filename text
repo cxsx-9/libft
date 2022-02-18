@@ -1,0 +1,8 @@
+memmove *
+memcmp *
+memchar *
+
+strnstr
+atoi
+calloc
+strdup
