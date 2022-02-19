@@ -6,13 +6,13 @@
 /*   By: csantivi <csantivi@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/20 01:45:28 by csantivi          #+#    #+#             */
-/*   Updated: 2022/02/20 02:02:20 by csantivi         ###   ########.fr       */
+/*   Updated: 2022/02/20 02:06:12 by csantivi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	char	*c;
 
