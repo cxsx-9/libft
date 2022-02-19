@@ -2,42 +2,25 @@
 #include "libft.h"
 #include <string.h>
 
-int main(int ac, char** av)
+int main()
 {
-    if (ac == 1)
-        printf("Not Found : ");
-    else if (ft_isalnum(av[1][0]))
-        printf("%c : isalnum\n",av[1][0]);
-    else
-        printf("not alnum\n");
+    char str[] = "-1234";
+    printf("number = %d",ft_atoi(str));
 }
 
+// // ------------ BEST MAIN FOR STRLCAT ------------
 // int main()
 // {
-//     int x = 0;
-//     while (x < 16)
+//     int i = 0;
+//     while (i < 15)
 //     {
-//         char dest[] = "oooooooooooo";
-//         const char src[]  = "----------";
-//         char str[100] = "-234567890";
-//         char *first, *second;
-//         first = str;
-//         second = str;
-
-//         char dest1[] =  "oooooooooooo";
-//         const char src1[]  = "----------";
-    
-//         printf("\n\nx >>> [%d]\n",x);
-
-//         printf("\nBefore R memmove dst   (12) = %s\n", dest);
-//         memmove(dest, src, x);
-//         printf("After  R memmove dst        = %s\n", dest);
-
-//         printf("\nBefore C memmove dst   (12) = %s\n", dest1);
-//         ft_memmove(dest1, src1, x);
-//         printf("After  c memmove dst        = %s\n\n", dest1);
-
-//         x++;
-
+//         char dr[] = "----------";
+// 	    char sr[] = "oo";
+//         printf("[%d]\n",i);
+//         printf("\ndR = %s,  src = %s\n",dr,sr);
+//         printf("return : %zu    d%lu (%d + s%lu)\n",ft_strlcat(dr,sr,i),strlen(dr),i,strlen(sr));
+//         printf("dR = %s,  src = %s\n\n",dr,sr);
+//         printf("-----------------------\n");
+//         i++;
 //     }
 // }

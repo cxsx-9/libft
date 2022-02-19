@@ -6,7 +6,7 @@
 /*   By: csantivi <csantivi@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 12:31:18 by csantivi          #+#    #+#             */
-/*   Updated: 2022/02/17 23:15:20 by csantivi         ###   ########.fr       */
+/*   Updated: 2022/02/19 23:56:48 by csantivi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,12 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	int		i;
-	char	*s;
-	char	*temp;
+	int	i;
 
-	i = 0;
-	s = (char *)str;
-	while (*s != '\0')
-	{
-		if (*s == c)
-			temp = s;
-		s++;
-	}
-	return (temp);
+	i = (int)ft_strlen(str) + 1;
+	while (i && str[i] != (char)c)
+		i--;
+	if (str[i] == (char)c)
+		return ((char *)str + i);
+	return (0);
 }
