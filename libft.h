@@ -6,7 +6,7 @@
 /*   By: csantivi <csantivi@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/16 21:52:17 by csantivi          #+#    #+#             */
-/*   Updated: 2022/02/20 00:37:30 by csantivi         ###   ########.fr       */
+/*   Updated: 2022/02/20 01:45:52 by csantivi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,4 +37,7 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char    *ft_strnstr(const char *s1, const char *s2, size_t n);
 int     ft_atoi(const char *str);
+void	*ft_calloc(size_t nitems, size_t size);
+char    *ft_strdup(const char *s1);
+
 #endif
