@@ -2,10 +2,24 @@
 #include "libft.h"
 #include <string.h>
 
+// int	count(int n)
+// {
+// 	int i;
+
+// 	i = 0;
+// 	while (n != 0)
+//     {
+//         printf("%d\n",n);
+// 		n = n / 10;
+// 		i++;
+//     }
+// 	return(i);
+// }
+
 int main()
 {
-    char str[] = "-1234";
-    printf("number = %d",ft_atoi(str));
+    char *s = ("abc");
+    ft_putstr_fd(s, 1);
 }
 
 // // ------------ BEST MAIN FOR STRLCAT ------------
