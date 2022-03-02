@@ -6,13 +6,13 @@
 /*   By: csantivi <csantivi@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 15:40:12 by csantivi          #+#    #+#             */
-/*   Updated: 2022/02/26 19:25:50 by csantivi         ###   ########.fr       */
+/*   Updated: 2022/03/02 23:13:30 by csantivi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	count(int n)
+static int	count(int n)
 {
 	int	i;
 

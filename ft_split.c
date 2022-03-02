@@ -6,13 +6,13 @@
 /*   By: csantivi <csantivi@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 21:46:02 by csantivi          #+#    #+#             */
-/*   Updated: 2022/02/25 23:57:18 by csantivi         ###   ########.fr       */
+/*   Updated: 2022/03/02 23:13:33 by csantivi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	count(char const *s, char c)
+static int	count(char const *s, char c)
 {
 	int	n;
 

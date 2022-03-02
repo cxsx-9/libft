@@ -6,7 +6,7 @@
 /*   By: csantivi <csantivi@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/19 23:28:43 by csantivi          #+#    #+#             */
-/*   Updated: 2022/02/19 23:53:35 by csantivi         ###   ########.fr       */
+/*   Updated: 2022/03/02 23:21:54 by csantivi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 	str1 = (char *)s1;
 	str2 = (char *)s2;
 	i = 0;
-	if (s1 == s2 || !s2)
+	if (!s2 || !(*s2))
 		return (str1);
 	while (str1[i] && i < n)
 	{
