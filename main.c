@@ -18,8 +18,8 @@
 
 int main()
 {
-    char *s = ("abc");
-    ft_putstr_fd(s, 1);
+    char *s = ("abc-def-ghi-jkl");
+    printf("%s\n",ft_strrchr(s, '-'));
 }
 
 // // ------------ BEST MAIN FOR STRLCAT ------------
